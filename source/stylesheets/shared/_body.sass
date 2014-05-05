@@ -1,11 +1,16 @@
 html, body
   height: 100%
   width: 100%
+  -webkit-font-smoothing: antialiased
 
 body
   font:
-    family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif
+    family: "Open Sans", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif
     size: 16px
   line-height: 1.5em
-  @include background-image (radial-gradient(50% top, rgba(darken($blue-color, 30%), 0.6) 0%, rgba($blue-color,0) 75%), radial-gradient(right top, $purple-color 0%, rgba(darken($purple-color, 30%), 0.8) 57%))
+  @include background-image(radial-gradient(50% top, rgba(darken($blue-color, 30%), 0.6) 0%, rgba($blue-color,0) 75%), radial-gradient(right top, $purple-color 0%, rgba(darken($purple-color, 30%), 0.8) 57%))
   background-color: darken($blue-color, 30%)
+
+hr
+  margin: 20px 0
+  border: 1px solid #ccc
