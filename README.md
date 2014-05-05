@@ -3,7 +3,9 @@ SpacedOut
 
 [https://ace-subido.github.com/spaced-out](https://ace-subido.github.com/spaced-out)
 
-A small CSS/JS library to recreate the slide menu found in the [atmospherejs](https://atmospherejs.com/) site. Doesn't depend on jQuery. The CSS file doesn't include normalize or reset. Parts of the js code are inspired from Hakim's Avgrund
+A small CSS/JS library to recreate the slide menu found in the [atmospherejs](https://atmospherejs.com/) site -- proper credits to the studio who built atmoshperejs.com.
+
+SpacedOut doesn't depend on jQuery. The CSS file doesn't include normalize or reset. Parts of the js code are inspired from Hakim's Avgrund
 
 Download
 ====================
