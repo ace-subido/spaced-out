@@ -1,4 +1,4 @@
-.page-wrapper
+.so-page-wrapper
   position: absolute
   top: 0
   right: 0
@@ -6,10 +6,12 @@
   bottom: 0
   width: auto
   height: auto
+  overflow: hidden
+  background: transparent
 
-  > .content-overlay,
-  > .content,
-  > .page-menu
+  > .so-content-overlay,
+  > .so-content,
+  > .so-page-menu
     position: absolute
     top: 0
     right: 0
@@ -19,5 +21,40 @@
     height: auto
     overflow-y: auto
 
-  .content
-    height: 100%
+  .so-content,
+  .so-content-overlay
+    @include transition(all 400ms $ease-out-cubic)
+
+  .so-content
+    background: #fff
+    opacity: 1
+
+  .so-menu-content
+    top: 50%
+    left: 20%
+    position: absolute
+    @include transform(translate(-50%, -50%))
+
+    > *
+      opacity: 0
+      @include transform(translateX(-80px))
+      @include transition(all 400ms ease-in-out)
+
+  &.opened
+    > .so-content-overlay
+      z-index: 1
+      cursor: pointer
+
+    > .so-content
+      opacity: 0.8
+
+    > .so-content, > .so-content-overlay
+      @include transform(translate3d(40%, 0, 0) scale3d(0.8, 0.8, 1))
+
+    .so-menu-content
+      > *
+        opacity: 1
+        @include transform(translateY(0px))
+
+
+
