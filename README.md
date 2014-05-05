@@ -8,8 +8,8 @@ SpacedOut doesn't depend on jQuery. The CSS file doesn't include normalize or re
 Download
 ====================
 
-[spaced-out.css](https://raw.githubusercontent.com/ace-subido/spaced-out/gh-pages/stylesheets/spaced-out.css)
-[spaced-out.js](https://raw.githubusercontent.com/ace-subido/spaced-out/gh-pages/javascripts/spaced-out.js)
+- [spaced-out.css](https://raw.githubusercontent.com/ace-subido/spaced-out/gh-pages/stylesheets/spaced-out.css)
+- [spaced-out.js](https://raw.githubusercontent.com/ace-subido/spaced-out/gh-pages/javascripts/spaced-out.js)
 
 
 Basic Template and Usage
