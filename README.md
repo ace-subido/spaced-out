@@ -5,6 +5,13 @@ SpacedOut
 
 A small CSS/JS library to recreate the slide menu found in the [atmospherejs](https://atmospherejs.com/) site. Doesn't depend on jQuery. The CSS file doesn't include normalize or reset. Parts of the js code are inspired from Hakim's Avgrund
 
+Download
+====================
+
+[spaced-out.css](https://raw.githubusercontent.com/ace-subido/spaced-out/gh-pages/stylesheets/spaced-out.css)
+[spaced-out.js](https://raw.githubusercontent.com/ace-subido/spaced-out/gh-pages/javascripts/spaced-out.js)
+
+
 Basic Template and Usage
 ====================
 
