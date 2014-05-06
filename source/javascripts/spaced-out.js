@@ -53,6 +53,8 @@ var SpacedOutMenu = (function() {
   }
 
   function uninstall() {
+    removeClass(page, 'opened');
+
     openBtn.removeEventListener('click', show);
     openBtn.removeEventListener('touchstart', show);
 
@@ -63,6 +65,7 @@ var SpacedOutMenu = (function() {
   }
 
   return {
-    install: install
+    install: install,
+    uninstall: uninstall
   }
 })();
