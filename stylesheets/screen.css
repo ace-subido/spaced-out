@@ -1,4 +1,4 @@
-/* line 1, /home/ace/Projects/spaced-out/source/stylesheets/globals/_reset.sass */
+/* line 1, /Users/ace/Projects/spaced-out/source/stylesheets/globals/_reset.sass */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -20,62 +20,62 @@ time, mark, audio, video {
   vertical-align: baseline; }
 
 /* HTML5 display-role reset for older browsers */
-/* line 22, /home/ace/Projects/spaced-out/source/stylesheets/globals/_reset.sass */
+/* line 22, /Users/ace/Projects/spaced-out/source/stylesheets/globals/_reset.sass */
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
   display: block; }
 
-/* line 26, /home/ace/Projects/spaced-out/source/stylesheets/globals/_reset.sass */
+/* line 26, /Users/ace/Projects/spaced-out/source/stylesheets/globals/_reset.sass */
 body {
   line-height: 1; }
 
-/* line 29, /home/ace/Projects/spaced-out/source/stylesheets/globals/_reset.sass */
+/* line 29, /Users/ace/Projects/spaced-out/source/stylesheets/globals/_reset.sass */
 ol, ul {
   list-style: none; }
 
-/* line 32, /home/ace/Projects/spaced-out/source/stylesheets/globals/_reset.sass */
+/* line 32, /Users/ace/Projects/spaced-out/source/stylesheets/globals/_reset.sass */
 blockquote, q {
   quotes: none; }
 
-/* line 35, /home/ace/Projects/spaced-out/source/stylesheets/globals/_reset.sass */
+/* line 35, /Users/ace/Projects/spaced-out/source/stylesheets/globals/_reset.sass */
 blockquote:before, blockquote:after,
 q:before, q:after {
   content: "";
   content: none; }
 
-/* line 40, /home/ace/Projects/spaced-out/source/stylesheets/globals/_reset.sass */
+/* line 40, /Users/ace/Projects/spaced-out/source/stylesheets/globals/_reset.sass */
 table {
   border-collapse: collapse;
   border-spacing: 0; }
 
-/* line 1, /home/ace/Projects/spaced-out/source/stylesheets/globals/_typography.sass */
+/* line 1, /Users/ace/Projects/spaced-out/source/stylesheets/globals/_typography.sass */
 h1 {
   font-size: 24px;
   margin-bottom: 1em;
   font-weight: 700; }
 
-/* line 6, /home/ace/Projects/spaced-out/source/stylesheets/globals/_typography.sass */
+/* line 6, /Users/ace/Projects/spaced-out/source/stylesheets/globals/_typography.sass */
 p {
   font-size: inherit;
   line-height: inherit;
   margin-bottom: 1em; }
-  /* line 11, /home/ace/Projects/spaced-out/source/stylesheets/globals/_typography.sass */
+  /* line 11, /Users/ace/Projects/spaced-out/source/stylesheets/globals/_typography.sass */
   p.small {
     font-size: 13px;
     font-weight: bold; }
 
-/* line 1, /home/ace/Projects/spaced-out/source/stylesheets/sections/_container.sass */
+/* line 1, /Users/ace/Projects/spaced-out/source/stylesheets/sections/_container.sass */
 .container {
   margin: 30px auto;
   max-width: 500px;
   color: 333;
   text-shadow: 0 1px 1px rgba(255, 255, 255, 0.2); }
 
-/* line 7, /home/ace/Projects/spaced-out/source/stylesheets/sections/_container.sass */
+/* line 7, /Users/ace/Projects/spaced-out/source/stylesheets/sections/_container.sass */
 .so-content {
   background-color: #f3f3f3; }
 
-/* line 11, /home/ace/Projects/spaced-out/source/stylesheets/sections/_container.sass */
+/* line 11, /Users/ace/Projects/spaced-out/source/stylesheets/sections/_container.sass */
 .so-menu-content a {
   margin: 40px 0;
   display: block;
@@ -83,17 +83,17 @@ p {
   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
   font-size: 32px;
   text-decoration: none; }
-  /* line 19, /home/ace/Projects/spaced-out/source/stylesheets/sections/_container.sass */
+  /* line 19, /Users/ace/Projects/spaced-out/source/stylesheets/sections/_container.sass */
   .so-menu-content a:hover {
     color: white;
     text-decoration: none;
     text-shadow: 0 1px 1px rgba(0, 0, 0, 0.3); }
-/* line 24, /home/ace/Projects/spaced-out/source/stylesheets/sections/_container.sass */
+/* line 24, /Users/ace/Projects/spaced-out/source/stylesheets/sections/_container.sass */
 .so-menu-content p {
   color: rgba(255, 255, 255, 0.7);
   font-size: 18px; }
 
-/* line 1, /home/ace/Projects/spaced-out/source/stylesheets/shared/_buttons.sass */
+/* line 1, /Users/ace/Projects/spaced-out/source/stylesheets/shared/_buttons.sass */
 .btn {
   padding: 6px 12px;
   color: white;
@@ -103,23 +103,23 @@ p {
   border-radius: 3px;
   text-decoration: none;
   text-shadow: none; }
-  /* line 11, /home/ace/Projects/spaced-out/source/stylesheets/shared/_buttons.sass */
+  /* line 11, /Users/ace/Projects/spaced-out/source/stylesheets/shared/_buttons.sass */
   .btn:hover, .btn:focus {
     background: #5f3a7f; }
-  /* line 15, /home/ace/Projects/spaced-out/source/stylesheets/shared/_buttons.sass */
+  /* line 15, /Users/ace/Projects/spaced-out/source/stylesheets/shared/_buttons.sass */
   .btn:focus {
     outline: none; }
-  /* line 18, /home/ace/Projects/spaced-out/source/stylesheets/shared/_buttons.sass */
+  /* line 18, /Users/ace/Projects/spaced-out/source/stylesheets/shared/_buttons.sass */
   .btn:active {
     background: #452a5c; }
 
-/* line 1, /home/ace/Projects/spaced-out/source/stylesheets/shared/_body.sass */
+/* line 1, /Users/ace/Projects/spaced-out/source/stylesheets/shared/_body.sass */
 html, body {
   height: 100%;
   width: 100%;
   -webkit-font-smoothing: antialiased; }
 
-/* line 6, /home/ace/Projects/spaced-out/source/stylesheets/shared/_body.sass */
+/* line 6, /Users/ace/Projects/spaced-out/source/stylesheets/shared/_body.sass */
 body {
   font-family: "Open Sans", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
   font-size: 16px;
@@ -128,7 +128,7 @@ body {
   background-image: radial-gradient(  at 50% top, rgba(1, 68, 177, 0.6) 0%, rgba(77, 144, 254, 0) 75%), radial-gradient(  at right top, #794aa2 0%, rgba(43, 26, 57, 0.8) 57%);
   background-color: #0144b1; }
 
-/* line 14, /home/ace/Projects/spaced-out/source/stylesheets/shared/_body.sass */
+/* line 14, /Users/ace/Projects/spaced-out/source/stylesheets/shared/_body.sass */
 hr {
   margin: 20px 0;
   border: 1px solid #cccccc; }
