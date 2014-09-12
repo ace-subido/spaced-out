@@ -42,18 +42,18 @@ It's pretty straightforward :)
       </div>
 
       <script type="text/javascript">
-        SpacedOut.install();
+        SpacedOutMenu.install();
       </script>
     </body>
     </html>
 
 This installs event handlers to the button with the `.so-menu-toggle` class. The button is binded with event handlers that open and close the menu.
 
-    SpacedOut.install()
+    SpacedOutMenu.install()
 
 This uninstalls those event handlers
 
-    SpacedOut.uninstall()
+    SpacedOutMenu.uninstall()
 
 License
 ====================
